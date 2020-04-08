@@ -1,0 +1,97 @@
+.respositories-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.respositories-container ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+.respositories-container ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    list-style: none;
+    border-radius: 8px;
+}
+
+.respositories-container ul li .card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.respositories-container ul li .card-title img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.respositories-container ul li .card-title strong {
+    font-size: 18px;
+    color: #ff4757;
+}
+
+.respositories-container ul li .card-title span {
+    background: #ff4757;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.respositories-container ul li .card-body {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+
+.respositories-container ul li .card-body strong {
+    color: #d5d5d5;
+    font-size: 14px;
+}
+
+.respositories-container ul li .card-body span {
+    margin-top: 10px;
+    color: #82858d;
+    font-weight: bold;
+}
+
+.respositories-container ul li .card-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: auto;
+}
+
+.respositories-container ul li .card-footer hr {
+    width: 100%;
+    margin: 20px 0 20px 0;
+    border-width: 0.3px;
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+.respositories-container ul li .card-footer a {
+    margin-top: auto;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    background: #2ed573;
+    padding: 6px 8px;
+    border-radius: 5px;
+    color: #092a17;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+.respositories-container ul li .card-footer a:hover {
+    background: #57dd8f;
+}
