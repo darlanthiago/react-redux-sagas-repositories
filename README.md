@@ -12,6 +12,6 @@
 
 `$ npm start or yarn start`
 
-###Sreenshot
+###Screenshot
 
 [![Screen](https://raw.githubusercontent.com/darlanthiago/react-redux-sagas-repositories/master/repositories.PNG "Screen")](https://raw.githubusercontent.com/darlanthiago/react-redux-sagas-repositories/master/repositories.PNG "Screen")
